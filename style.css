@@ -29,61 +29,64 @@ body {
   margin: 8px;
 }
 
-.output{
-    flex: .24;
-    background-color: red;
-    margin: 5px;
-    margin-bottom: 7px;
-    background-color: #B2B9B7;
-    font-family: monospace;
-    font-size: 72px;
-    font-weight: 500;
-
+.output {
+  flex: 0.24;
+  background-color: red;
+  margin: 5px;
+  margin-bottom: 7px;
+  background-color: #b2b9b7;
+  font-family: monospace;
+  font-size: 72px;
+  font-weight: 500;
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
 }
 
-.button-row{
-    display:flex;
-    flex: 1;
-    gap: 4px;
-
+.button-row {
+  display: flex;
+  flex: 1;
+  gap: 4px;
 }
 
 button {
-    flex: 1;
-    border-radius: 7px;
-    font-family: monospace;
-    font-size: 26px;
-    font-weight: 500;
-    border: none;
+  flex: 1;
+  border-radius: 7px;
+  font-family: monospace;
+  font-size: 26px;
+  font-weight: 500;
+  border: none;
 }
 
-
-.extra{
-    background-color: #1E90FF;
+.extra {
+  background-color: #1e90ff;
 }
 
 .num {
-    background-color: #217C7E;
+  background-color: #217c7e;
 }
 
-.operator{
-    background-color: #FF8F1F;
+.operator {
+  background-color: #ff8f1f;
+}
+
+.equals {
+  background-color: #ff8f1f;
 }
 
 .row {
-    display: flex;
-    flex: 1;
-    gap: 4px;
-
+  display: flex;
+  flex: 1;
+  gap: 4px;
 }
-.column{
-    display: flex;
-    flex-direction: column;
-    flex: 1;
-    gap: 4px;
+.column {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  gap: 4px;
 }
 
 .result {
-    text-align: right;
-    margin-right: 5px;
+  margin-right: 5px;
+  overflow: auto;
 }
